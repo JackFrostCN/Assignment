@@ -1,37 +1,34 @@
-# MCP CV System  
+# MCP Server for CV
 
-A full-stack project for **CV parsing, Q&A, and email sending**.  
-It consists of:  
+A full-stack application for parsing CVs, answering questions, and sending summaries via email. This project includes:
 
-1. **MCP Server (Backend)** – A Flask microservice to parse CVs (PDF/DOCX), extract details, answer questions, and send CV summaries via email using Mailtrap.  
-2. **MCP CV Frontend (React)** – A web interface to upload CVs, view parsed data, ask questions, and send emails.  
+1. **Backend (Flask)**: A microservice to parse CVs (PDF/DOCX), extract details, answer questions, and send summaries via email using Mailtrap.
+2. **Frontend (React)**: A web interface to upload CVs, view parsed data, ask questions, and send emails.
 
 ---
 
 ## 🚀 Features
 
-- Upload CVs in PDF or DOCX format  
-- Extract candidate details: name, contact info, skills, experience  
-- Natural-language Q&A over CV data  
-- Send CV summaries via email (Mailtrap sandbox)  
-- Web interface with React for easy interaction  
+* Upload CVs in PDF or DOCX format
+* Extract candidate details: name, contact info, skills, experience
+* Natural-language Q\&A over CV data
+* Send CV summaries via email (Mailtrap sandbox)
+* Web interface with React for easy interaction
 
 ---
 
 ## 📂 Project Structure
 
 ```
-
 .
 ├── backend/
-│   └── mcp\_server.py       # Flask backend server
+│   └── mcp_server.py       # Flask backend server
 ├── frontend/
 │   └── src/
 │       └── App.js          # React frontend
 ├── README.md
 └── requirements.txt        # Python dependencies
-
-````
+```
 
 ---
 
@@ -43,7 +40,7 @@ It consists of:
 cd backend
 pip install -r ../requirements.txt
 python mcp_server.py
-````
+```
 
 Runs at: `http://127.0.0.1:5000`
 
@@ -56,7 +53,7 @@ npm start
 ```
 
 Runs at: `http://localhost:3000`
-Make sure the backend is running for full functionality.
+Ensure the backend is running for full functionality.
 
 ---
 
@@ -94,9 +91,4 @@ MIT License
 
 ---
 
-**GitHub Repo:** [https://github.com/JackFrostCN/Assignment](https://github.com/JackFrostCN/Assignment.git)
-
-``` 
-
-Do you want me to do that next?
-```
+Feel free to copy and paste this into your `README.md` file. If you need further customization or additional sections, let me know!
